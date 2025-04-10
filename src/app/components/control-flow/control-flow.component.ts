@@ -12,6 +12,7 @@ export class ControlFlowComponent {
    color : string = "green"
    cores = ["azul", "amarelo", "vermelho"]
    itemSelecionado:string = 'um';
+   mes:number = 1;
    trocaValor(event:Event) : void{
     const elementoSelecionado = event.target as HTMLSelectElement
     this.itemSelecionado = elementoSelecionado.value
